@@ -20,10 +20,9 @@ Simple To-Do List - это консольное приложение для уп
 ## Установка
 ```bash
 # Клонирование репозитория
-git clone https://github.com/your-username/todolist.git
-
+git clone https://github.com/polinachere/My_project_1.git
 # Переход в директорию проекта
-cd todolist
+cd My_project_1
 
 # Создание виртуального окружения
 python -m venv venv
