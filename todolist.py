@@ -22,7 +22,7 @@ def remove_task(task_index):
         else:
             print("Некорректный индекс")
     except ValueError:
-        print("Некореектный индекс")
+        print("Некорректный индекс")
 
 
 def view_tasks():
@@ -39,10 +39,10 @@ def main():
         print("\n--- СПИСОК ДЕЛ ---")
         print("1. Добавить задание")
         print("2. Удалить задание")
-        print("3. Посмотреть задание")
+        print("3. Посмотреть все задания")
         print("4. Выход")
 
-        choice = input("Ваще действие (1/2/3/4): ")
+        choice = input("Ваше действие (1/2/3/4): ")
 
         if choice == "1":
             task = input("Введите задачу: ")
